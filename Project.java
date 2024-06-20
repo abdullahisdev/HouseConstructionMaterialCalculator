@@ -97,7 +97,7 @@ public class HouseConstructionMaterialCalculator {
             area = calculateArea(length, width);
         }
 
-        // Input number of floors,rooms, bathrooms, kitchens.......................
+        // Input number of floors, rooms, bathrooms, kitchens etc
         System.out.print("Enter the number of floors: ");
         int floors;
         while (!input.hasNextInt()) {
