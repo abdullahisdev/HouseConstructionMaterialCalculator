@@ -622,8 +622,6 @@ public class HouseConstructionMaterialCalculator {
                 return 0.0; // Invalid choice, return 0 price
         }
     }
-
-    //
     // Calculating total cost.....................
     private static double calculateTotalCost(double area, int floors, double cementPrice, double tmtPrice,
             double plasteringMSandPrice, double concreteMSandPrice,
@@ -645,7 +643,6 @@ public class HouseConstructionMaterialCalculator {
                         kitchens / 2 * 90))));
         // Calculating crush cost
         double constructionCrushCost = Math.ceil(constructionCrushPrice * ((0.043 * builtupSqft)));
-
         // Calculating total price of house
         double totalCost = tmtCost + cementCost + mSandCost + concreteMSandCost +
                 bricksCost + constructionCrushCost;
