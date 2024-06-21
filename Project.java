@@ -33,7 +33,6 @@ public class HouseConstructionMaterialCalculator {
                 input.next();
             }
             choice = input.nextInt();
-
             switch (choice) {
                 case 1:
                     if (userLogin(input)) {
