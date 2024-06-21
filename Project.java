@@ -84,6 +84,7 @@ public class HouseConstructionMaterialCalculator {
             }
 
             length = input.nextDouble();
+
             // Input width
             System.out.print("Enter width in feet: ");
             double width;
