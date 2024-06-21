@@ -361,7 +361,7 @@ public class HouseConstructionMaterialCalculator {
         return unit;
     }
 
-    // Calculate Area..................
+    // Calculate Area.................
     private static double calculateArea(double length, double width) {
         return length * width;
     }
