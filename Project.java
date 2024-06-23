@@ -241,7 +241,7 @@ public class HouseConstructionMaterialCalculator {
         try {
 
             TimeUnit.SECONDS.sleep(1);
-        } catch (InterruptedException e) {
+        }  catch (InterruptedException e) {
 
             e.printStackTrace();
         }
