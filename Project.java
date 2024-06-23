@@ -53,9 +53,8 @@ public class HouseConstructionMaterialCalculator {
                 default:
                     System.out.println("Invalid choice. Please enter a valid option (1-2).");
                     break;
-            }
+            } 
         }
-
         String unit;
         do {
             unit = getAreaUnit(input);
