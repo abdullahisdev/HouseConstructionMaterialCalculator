@@ -104,7 +104,6 @@ public class HouseConstructionMaterialCalculator {
             input.next();
         }
         floors = input.nextInt();
-
         System.out.print("Enter the number of rooms: ");
         int rooms;
         while (!input.hasNextInt()) {
